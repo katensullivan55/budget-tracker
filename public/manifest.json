@@ -1,6 +1,6 @@
 {
-    "name": "Budget App",
-    "short_name": "BA",
+    "name": "Budget Tracker",
+    "short_name": "Budget",
     "icons": [
         {
             "src": "icons/icon-72x72.png",
