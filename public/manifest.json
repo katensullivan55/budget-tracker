@@ -1,11 +1,11 @@
 {
-    "name": ,
-    "short_name": ,
+    "name": "Budget App",
+    "short_name": "BA",
     "icons": [
- 
+
     ],
-    "theme_color": ,
-    "background_color": ,
-    "start_url": ,
-    "display":
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone"
   }
