@@ -1,5 +1,5 @@
 let db;
-const request = indexedDB.open('budget', 1);
+const request = indexDB.open('budget', 1);
 
 request.onupgradeneeded = function(event) {
   const db = event.target.result;
@@ -21,7 +21,7 @@ request.onerror = function(event) {
   console.log(event.target.errorCode);
 };
 
-function saveRecord(record) {
+function saveTransaction(record) {
   const transaction = db.transaction(['new_budget'], 'readwrite');
 
   const purpleObjectStore = transaction.objectStore('new_budget');
