@@ -1,5 +1,5 @@
 const express = require("express");
-const logger = require("morgan");
+const logger = require("kate");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
